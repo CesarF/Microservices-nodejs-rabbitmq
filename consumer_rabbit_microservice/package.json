@@ -1,0 +1,7 @@
+{
+ "name": "consumer-rabbit-service",
+ "version": "1.0.0",
+ "dependencies": {
+   "amqplib":"*"
+ }
+}
