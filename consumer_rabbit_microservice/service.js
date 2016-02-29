@@ -1,7 +1,7 @@
 var amqp = require('amqplib/callback_api');
 
   //process.env.RABBIT_HOST=localhost:5672
-  amqp.connect('amqp://localhost:5672', function(err, conn) {
+  amqp.connect('amqp://test:test@10.1.1.113:5672', function(err, conn) {
   conn.createChannel(function(err, ch) {
     var q = 'test';
     ch.assertQueue(q, {durable: false});
