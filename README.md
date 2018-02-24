@@ -1,4 +1,4 @@
-# microservices_node_rabbit
+# Microservices: nodejs rabbitmq consumer and producer
 
 Simple project to run two services coded in nodejs which exchange messages throught rabbitmq.
 
